@@ -7,7 +7,7 @@ export default function DetailsScreen({ navigation }) {
             <Text className='text-3xl font-bold text-white'>This is the details screen!</Text>
             <Text className='text-lg text-gray-400'>Welcome to React Native</Text>
             <Button 
-                title='Click me' 
+                title='Back to home' 
                 onPress={() => navigation.navigate('Home')}
             />
         </View>
